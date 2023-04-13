@@ -1,4 +1,5 @@
-# Visualize the Sorting Algos
+# Sorting Visualizer
+https://sortingvisualizerarun.netlify.app/
 
 
 
