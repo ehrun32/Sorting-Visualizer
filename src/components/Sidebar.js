@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import "./Sidebar.css";
 import { Slider } from "@mui/material";
 
 function Sidebar() {
