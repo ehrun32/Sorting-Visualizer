@@ -81,9 +81,12 @@ function Sidebar() {
   }, []);
 
   return (
-    <div className="flex items-center justify-between w-full bg-[#34495e] h-10">
-      <div className="flex items-center px-5 py-2 justify-between">
-        <div className="font-mono text-white" htmlFor="algo">
+    <div className="flex flex-wrap items-center justify-between w-auto bg-[#34495e] h-auto">
+      <div className="flex items-center px-5 py-2 justify-center">
+        <div
+          className="font-mono text-white hidden md:inline-block"
+          htmlFor="algo"
+        >
           Algorithm:
         </div>
         <select
@@ -101,12 +104,15 @@ function Sidebar() {
         </select>
       </div>
 
-      <div className="flex items-center px-5 py-2 justify-between">
-        <div className="font-mono text-white" htmlFor="range">
+      <div className="flex items-center px-5 py-2 justify-between gap-x-1 ">
+        <div
+          className="font-mono text-white hidden md:inline-block"
+          htmlFor="range"
+        >
           Range:
         </div>
         <Slider
-          style={{ width: "180px" }}
+          style={{ width: "100px" }}
           size="small"
           defaultValue={30}
           id="slider"
@@ -120,8 +126,11 @@ function Sidebar() {
       </div>
 
       <div className="flex items-center px-5 py-2 justify-between">
-        <div className="font-mono text-white" htmlFor="color">
-          Color:{" "}
+        <div
+          className="font-mono text-white hidden md:inline-block"
+          htmlFor="color"
+        >
+          Color:
         </div>
         <select
           className="font-mono text-white  cursor-pointer border-none text-sm outline-none bg-[#34495e]"
@@ -152,8 +161,11 @@ function Sidebar() {
       </div>
 
       <div className="flex items-center px-5 py-2 justify-between">
-        <label className="font-mono text-white" htmlFor="speed">
-          Speed:{" "}
+        <label
+          className="font-mono text-white hidden md:inline-block"
+          htmlFor="speed"
+        >
+          Speed:
         </label>
         <select
           className="font-mono text-white  cursor-pointer border-none text-sm outline-none bg-[#34495e]"

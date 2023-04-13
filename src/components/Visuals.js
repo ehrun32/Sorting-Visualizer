@@ -53,7 +53,7 @@ function Visuals() {
   else if (myState.algorithm === "merge") speed *= 5;
   else if (myState.algorithm === "quick") speed *= 6;
   return (
-    <div className="flex flex-col flex-1 p-5 items-center justify-start ">
+    <div className="flex flex-col flex-1 p-1 md:p-5 items-center justify-start ">
       <div className="flex w-full items-center justify-center relative">
         {
           <div
