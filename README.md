@@ -1,4 +1,5 @@
 # Sorting Visualizer
+To view the project it is visible in the following website:
 https://sortingvisualizerarun.netlify.app/
 
 
